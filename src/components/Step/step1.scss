@@ -1,0 +1,14 @@
+@import "../../scss/main.scss";
+
+.container-step1 {
+}
+
+.container-return-button {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: $white;
+  outline: none;
+  border: 1px solid $primary;
+  color: $white-disable;
+  cursor: pointer;
+}
