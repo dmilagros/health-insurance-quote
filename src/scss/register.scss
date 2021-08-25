@@ -1,0 +1,58 @@
+@import "../scss/main.scss";
+
+.container-register {
+  display: flex;
+  height: 100vh;
+
+  &__container-advertising {
+    width: 35%;
+    min-width: 403px;
+    height: 100vh;
+    position: relative;
+    background-image: url("../assets/images/background-small-web.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+  }
+
+  &__watermark {
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    left: 200px;
+    background-image: url("../assets/images/watermark.png");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+  }
+
+  &__container-form {
+    width: 45%;
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+  &__form-title {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 43px;
+    margin: 0 auto;
+    color: $gray30;
+    &--highlight {
+      font-weight: 400;
+      color: $primary;
+    }
+  }
+  &__steps {
+    display: flex;
+    color: $primary;
+    &--primary {
+      margin-left: 5px;
+      font-weight: 400;
+      color: $gray10;
+    }
+  }
+  &__form-subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 43px;
+    color: $gray20;
+  }
+}

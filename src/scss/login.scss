@@ -1,0 +1,85 @@
+@import "../scss/main.scss";
+
+.container-login {
+  display: flex;
+  height: 100vh;
+
+  &__container-advertising {
+    width: 55%;
+    min-width: 773px;
+    height: 100vh;
+    position: relative;
+    background-image: url("../assets/images/background-large-web.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+  }
+  &__advertising {
+    width: auto;
+    position: absolute;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    color: $white;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  &__advantage {
+    margin-bottom: 180px;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 65px;
+    margin: 0 auto;
+    &--bold {
+      font-weight: 400;
+    }
+  }
+  &__item {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: middle;
+
+    &--bold {
+      font-weight: 400;
+    }
+  }
+  &__image-item {
+    height: 14px;
+    margin-right: 10px;
+  }
+  &__watermark {
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    left: 600px;
+    background-image: url("../assets/images/watermark.png");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+  }
+  &__container-form {
+    width: 45%;
+    padding-top: 100px;
+  }
+  &__form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  &__form-title {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 43px;
+    margin: 0 auto;
+    color: $gray30;
+    &--highlight {
+      font-weight: 400;
+      color: $primary;
+    }
+  }
+  &__form-subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 auto 22px auto;
+    color: $gray20;
+  }
+}
