@@ -1,0 +1,12 @@
+.container-loading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20% 0 0 0;
+
+  &__player-one {
+    position: relative;
+    top: 40%;
+    max-width: 300px;
+  }
+}
